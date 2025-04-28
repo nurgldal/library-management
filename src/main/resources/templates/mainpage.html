@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body class="bg-light">
+
+    <div class="container text-center mt-5">
+        <h1 class="mb-4">Welcome to Library Management System</h1>
+
+        <div class="row justify-content-center">
+            <!-- Members Card -->
+            <div class="col-md-4">
+                <div class="card shadow-lg p-3">
+                    <div class="card-body">
+                        <i class="bi bi-people-fill text-success" style="font-size: 4rem;"></i>
+                        <h5 class="card-title mt-3">Members</h5>
+                        <p class="card-text">View and manage the members.</p>
+					
+                        <a href="/index" class="btn btn-success">Go to Members</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Books Page Card -->
+            <div class="col-md-4">
+                <div class="card shadow-lg p-3">
+                    <div class="card-body">
+                        <i class="bi bi-book-fill text-danger" style="font-size: 4rem;"></i>
+                        <h5 class="card-title mt-3">Books</h5>
+                        <p class="card-text">View and manage the list of books available in the library.</p>
+                        <a href="/books" class="btn btn-danger">Go to Books</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Borrowers Page Card -->
+            <div class="col-md-4">
+                <div class="card shadow-lg p-3">
+                    <div class="card-body">
+                        <i class="bi bi-journal-check text-warning" style="font-size: 4rem;"></i>
+                        <h5 class="card-title mt-3">Borrowers</h5>
+                        <p class="card-text">Manage borrowed books and track return dates.</p>
+                        <a href="/borrowers" class="btn btn-warning">Go to Borrowers</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
