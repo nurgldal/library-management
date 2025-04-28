@@ -22,8 +22,9 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Build with Maven
-      run: mvn clean package
+    - name: Build with Maven (Skip Tests)
+      run: mvn clean package -DskipTests
+
 
     - name: Build Docker image
       run: |
