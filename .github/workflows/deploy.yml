@@ -42,7 +42,7 @@ jobs:
     - name: Upload JAR to EC2 with SCP
       uses: appleboy/scp-action@v0.1.4
       with:
-        host: 13.61.5.252 
+        host: 13.61.179.101
         username: ubuntu
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         source: "target/*.jar"
