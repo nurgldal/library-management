@@ -1,2 +1,1 @@
-My Library Management Project
-trigger test
+My Library Management Project  test
