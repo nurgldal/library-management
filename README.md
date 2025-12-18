@@ -28,7 +28,7 @@
 
 ## 📂 Proje Yapısı | Project Structure
 
-
+```text
 library-management/
 │
 ├── src/                → Application source code
