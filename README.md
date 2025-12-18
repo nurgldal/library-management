@@ -28,7 +28,7 @@
 
 ## 📂 Proje Yapısı | Project Structure
 
-```text
+
 library-management/
 │
 ├── src/                → Application source code
@@ -37,6 +37,7 @@ library-management/
 ├── Dockerfile          → Docker configuration
 ├── pom.xml             → Maven dependencies & configuration
 └── README.md           → Project documentation
+
 ---
 ## ⚙️ Çalışma Mantığı | How the System Works
 
